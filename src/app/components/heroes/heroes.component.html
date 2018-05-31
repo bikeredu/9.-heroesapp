@@ -24,9 +24,9 @@
           </tr>
         </thead>
         <tbody>
-          <tr>
+          <tr *ngFor="let heroe of heroes">
             <td></td>
-            <td></td>
+            <td>{{ heroe.nombre }}</td>
             <td></td>
             <td></td>
           </tr>
